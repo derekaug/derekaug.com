@@ -1,12 +1,12 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from "next";
 
-export const config = {
-  runtime: "experimental-edge",
-};
-
 type Data = {
   name: string;
+};
+
+export const config = {
+  runtime: "experimental-edge",
 };
 
 export default function handler(
