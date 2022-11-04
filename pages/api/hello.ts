@@ -9,7 +9,7 @@ export const config = {
 };
 
 export default async function handler() {
-  return new Response(JSON.stringify({ name: "John Doe" }), {
+  return new Response(JSON.stringify({ name: "Derek J. Augustine" }), {
     status: 200,
     headers: {
       "Content-Type": "application/json",
