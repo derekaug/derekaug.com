@@ -15,6 +15,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Derek J. Augustine</h1>
+        <h2>Developer, Cyclist, Dad</h2>
       </main>
     </div>
   );
